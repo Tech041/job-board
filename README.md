@@ -39,12 +39,13 @@ https://job-board-assessment.vercel.app
 ```bash
 git clone https://github.com/Tech041/job-board.git
 
+
 2. Install dependencies
 
 npm install
 
 3. Configure Environment Variables
-Create a .env.local file in the root of the project and add the following:
+Create a .env file in the root of the project and add the following:
 
 MONGO_URI=your_mongodb_connection_string
 NEXT_PUBLIC_BACKEND_URL=http://localhost:3000/api
